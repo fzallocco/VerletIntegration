@@ -39,4 +39,9 @@ This is an implementation of [Verlet Integration](https://www.algorithm-archive.
 - Memory - 8 GB
 - OS - Monterey Version 12.1
 
-I have no idea if this will run on your machine but you're welcome to try by calling `make` in the root directory followed by `./app`
+To run this on your M-series Mac, execute:
+
+`brew install glew glfw                                      
+make clean
+make
+./app`
